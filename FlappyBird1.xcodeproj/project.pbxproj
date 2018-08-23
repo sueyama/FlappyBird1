@@ -15,6 +15,18 @@
 		A40B32D1202467B800F663E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40B32CF202467B800F663E9 /* Main.storyboard */; };
 		A40B32D3202467BB00F663E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A40B32D2202467BB00F663E9 /* Assets.xcassets */; };
 		A40B32D6202467BB00F663E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40B32D4202467BB00F663E9 /* LaunchScreen.storyboard */; };
+		A40B32E72024680700F663E9 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A40B32DD202467FE00F663E9 /* sound.mp3 */; };
+		A40B32E82024680700F663E9 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A40B32DE202467FF00F663E9 /* logo.png */; };
+		A40B32E92024680700F663E9 /* pipeBottom.png in Resources */ = {isa = PBXBuildFile; fileRef = A40B32DF2024680000F663E9 /* pipeBottom.png */; };
+		A40B32EA2024680700F663E9 /* bird.png in Resources */ = {isa = PBXBuildFile; fileRef = A40B32E02024680100F663E9 /* bird.png */; };
+		A40B32EB2024680700F663E9 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A40B32E12024680100F663E9 /* bg@2x.png */; };
+		A40B32EC2024680700F663E9 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A40B32E22024680200F663E9 /* bg.png */; };
+		A40B32ED2024680700F663E9 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = A40B32E32024680300F663E9 /* star.png */; };
+		A40B32EE2024680700F663E9 /* bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A40B32E42024680400F663E9 /* bg@3x.png */; };
+		A40B32EF2024680700F663E9 /* backSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A40B32E52024680500F663E9 /* backSound.mp3 */; };
+		A40B32F02024680700F663E9 /* pipeTop.png in Resources */ = {isa = PBXBuildFile; fileRef = A40B32E62024680600F663E9 /* pipeTop.png */; };
+		A4E501B72025C89400CF1D82 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E501B62025C89400CF1D82 /* StartViewController.swift */; };
+		A4E501B92025CE4200CF1D82 /* GameOverImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4E501B82025CE4200CF1D82 /* GameOverImage.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +40,18 @@
 		A40B32D2202467BB00F663E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A40B32D5202467BB00F663E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A40B32D7202467BB00F663E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A40B32DD202467FE00F663E9 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		A40B32DE202467FF00F663E9 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		A40B32DF2024680000F663E9 /* pipeBottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipeBottom.png; sourceTree = "<group>"; };
+		A40B32E02024680100F663E9 /* bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird.png; sourceTree = "<group>"; };
+		A40B32E12024680100F663E9 /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		A40B32E22024680200F663E9 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		A40B32E32024680300F663E9 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		A40B32E42024680400F663E9 /* bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@3x.png"; sourceTree = "<group>"; };
+		A40B32E52024680500F663E9 /* backSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backSound.mp3; sourceTree = "<group>"; };
+		A40B32E62024680600F663E9 /* pipeTop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipeTop.png; sourceTree = "<group>"; };
+		A4E501B62025C89400CF1D82 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		A4E501B82025CE4200CF1D82 /* GameOverImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GameOverImage.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +84,23 @@
 		A40B32C4202467B700F663E9 /* FlappyBird1 */ = {
 			isa = PBXGroup;
 			children = (
+				A40B32E52024680500F663E9 /* backSound.mp3 */,
+				A4E501B82025CE4200CF1D82 /* GameOverImage.jpg */,
+				A40B32E22024680200F663E9 /* bg.png */,
+				A40B32E12024680100F663E9 /* bg@2x.png */,
+				A40B32E42024680400F663E9 /* bg@3x.png */,
+				A40B32E02024680100F663E9 /* bird.png */,
+				A40B32DE202467FF00F663E9 /* logo.png */,
+				A40B32DF2024680000F663E9 /* pipeBottom.png */,
+				A40B32E62024680600F663E9 /* pipeTop.png */,
+				A40B32DD202467FE00F663E9 /* sound.mp3 */,
+				A40B32E32024680300F663E9 /* star.png */,
 				A40B32C5202467B700F663E9 /* AppDelegate.swift */,
 				A40B32C7202467B700F663E9 /* GameScene.sks */,
 				A40B32C9202467B700F663E9 /* Actions.sks */,
 				A40B32CB202467B800F663E9 /* GameScene.swift */,
 				A40B32CD202467B800F663E9 /* GameViewController.swift */,
+				A4E501B62025C89400CF1D82 /* StartViewController.swift */,
 				A40B32CF202467B800F663E9 /* Main.storyboard */,
 				A40B32D2202467BB00F663E9 /* Assets.xcassets */,
 				A40B32D4202467BB00F663E9 /* LaunchScreen.storyboard */,
@@ -132,10 +168,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				A40B32D1202467B800F663E9 /* Main.storyboard in Resources */,
+				A40B32EF2024680700F663E9 /* backSound.mp3 in Resources */,
+				A40B32EE2024680700F663E9 /* bg@3x.png in Resources */,
 				A40B32C8202467B700F663E9 /* GameScene.sks in Resources */,
+				A40B32EA2024680700F663E9 /* bird.png in Resources */,
 				A40B32D3202467BB00F663E9 /* Assets.xcassets in Resources */,
+				A40B32F02024680700F663E9 /* pipeTop.png in Resources */,
 				A40B32D6202467BB00F663E9 /* LaunchScreen.storyboard in Resources */,
+				A40B32ED2024680700F663E9 /* star.png in Resources */,
+				A4E501B92025CE4200CF1D82 /* GameOverImage.jpg in Resources */,
+				A40B32E92024680700F663E9 /* pipeBottom.png in Resources */,
+				A40B32E82024680700F663E9 /* logo.png in Resources */,
+				A40B32E72024680700F663E9 /* sound.mp3 in Resources */,
 				A40B32CA202467B700F663E9 /* Actions.sks in Resources */,
+				A40B32EC2024680700F663E9 /* bg.png in Resources */,
+				A40B32EB2024680700F663E9 /* bg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A40B32CC202467B800F663E9 /* GameScene.swift in Sources */,
+				A4E501B72025C89400CF1D82 /* StartViewController.swift in Sources */,
 				A40B32CE202467B800F663E9 /* GameViewController.swift in Sources */,
 				A40B32C6202467B700F663E9 /* AppDelegate.swift in Sources */,
 			);
@@ -292,12 +340,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8P4PHY98KQ;
 				INFOPLIST_FILE = FlappyBird1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yutaudemy.FlappyBird1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.littletips.FlappyBird1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,12 +358,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8P4PHY98KQ;
 				INFOPLIST_FILE = FlappyBird1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yutaudemy.FlappyBird1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.littletips.FlappyBird1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
